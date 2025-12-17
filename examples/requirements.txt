@@ -1,0 +1,38 @@
+# Beyond Greed Framework - Python Dependencies
+
+# Core dependencies for examples
+# Note: Examples are designed to work with or without LLM APIs
+
+# For production LLM integration (optional)
+# openai>=1.0.0
+# anthropic>=0.18.0
+
+# For local LLM integration (optional)
+# transformers>=4.30.0
+# torch>=2.0.0
+
+# Basic utilities
+pyyaml>=6.0.0
+
+# For development and testing
+pytest>=7.4.0
+black>=23.0.0
+mypy>=1.5.0
+flake8>=6.0.0
+
+# For examples that require additional features
+# Web framework (if building APIs)
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+
+# Data processing
+# pandas>=2.0.0
+# numpy>=1.24.0
+
+# Visualization (for empathy metrics, etc.)
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
+
+# Note: Install only what you need
+# pip install -r requirements.txt
+# Or install specific packages as needed
