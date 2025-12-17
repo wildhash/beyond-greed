@@ -11,7 +11,7 @@ Part of the Beyond Greed framework.
 import json
 import os
 from typing import Dict, List, Optional
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass
 
 
 @dataclass
